@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0%;
+  padding: 0%;
+ 
+  font-family: "Playfair Display", serif;
+
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@600&display=swap');
+
+
+html {
+  font-size: 70.5%;
+}
+body {
+  font-size: 1.6rem; 
+  background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+  
+  
+  
+  
+
+}
+
+#bg{
+  background-color: #FAD961;
+  
+  background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+  
+  
+}
+
+#bg2{
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  
+  
+  
+  
+  
+}
+
+#bg3{
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  
+  
+  
+  
+  
+  
+}
+
+/* #bg {
+  background-image: url('./assets/Untitled design.png'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+
+h1 {
+  font-size: 2.4rem; /* This is equivalent to 24 pixels (2.4 * 10) */
+}
+
+p {
+  font-size: 1.4rem; /* This is equivalent to 14 pixels (1.4 * 10) */
+}
+body {
+  font-size: 1.6rem;
+}
+
+/* Adjust font sizes for larger screens */
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 1.1rem;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 0.7rem;
+  }
+}

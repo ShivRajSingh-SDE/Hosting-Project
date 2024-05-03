@@ -1,0 +1,398 @@
+
+.registration-form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+
+
+.registration {
+  flex: 1;
+  max-width: 500px;
+}
+
+.registration img {
+  width: 100%;
+  height: auto;
+}
+
+.registration-form {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-self: center;
+}
+
+.main-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login-Image {
+  flex: 1;
+}
+
+.login-Image img {
+  width: 100%;
+  height: auto;
+}
+
+.loginArea {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginHeading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.formElement {
+  display: flex;
+  flex-direction: column;
+}
+
+.username,
+.password {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.userinput,
+.passwordinput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.login-Image img {
+  max-width: auto;
+  height: 95%;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 120.5%;
+  }
+  .registration-form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .about {
+    height: 60vh;
+  }
+
+  /* Add more styles for smaller screens as needed */
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 11%;
+  margin-bottom: 8%;
+}
+.section2 {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 1000px) {
+  .about {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+  }
+  /* Add more styles for smaller screens as needed */
+}
+
+
+.main-blocks {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  gap: 3%;
+}
+
+
+
+/* admin page */
+.admin {
+  height: 100vh;
+  width: 100%;
+}
+.navAdmin {
+  background-color: rgb(249, 212, 0);
+  color: black;
+  border-radius: 10%;
+}
+
+.navAdmin:hover {
+  background-color: rgb(220, 208, 168);
+}
+.adminPage {
+  font-size: 6rem;
+}
+
+.adminLayout {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+}
+.adminBox1,
+.adminBox2 {
+  border: 1px solid rgb(85, 84, 84);
+}
+.adminBox1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+
+  font-size: 2.5rem;
+  margin-top: 16%;
+  margin-bottom: 80%;
+}
+.adminBox2 div {
+  display: flex;
+  justify-content: center;
+}
+
+.adminUserData {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  margin: 0 auto;
+  table-layout: fixed; /* Set a fixed layout for the table */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.tableBody {
+  overflow-y: auto;
+  max-height: 500px;
+  width: 100%;
+  color: #f2f2f2; /* Ensure the table body takes up the full width */
+}
+@media (max-width: 668px) {
+  .tableBody {
+    overflow-y: auto;
+    max-height: 300px;
+    width: 100%;
+    color: #f2f2f2; /* Ensure the table body takes up the full width */
+  }
+}
+
+/* Add some spacing between table rows */
+tr {
+  margin-bottom: 10px;
+}
+
+.userDiv {
+  background: rgb(139, 226, 131);
+  color: #b6932b;
+  width: 90%;
+  border-radius: 12px;
+  margin: 10px; /* Add some margin for better spacing between userDiv elements */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  overflow-x: auto;
+}
+th:nth-child(2)::-webkit-scrollbar,
+td:nth-child(2)::-webkit-scrollbar {
+  display: none;
+}
+
+.adminbuttons li {
+  background-color: #2b878e;
+  margin-bottom: 12%;
+  border-radius: 12px;
+}
+.adminbuttons li:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(134, 234, 149),
+    rgb(177, 189, 72)
+  );
+}
+
+.adminDelbutton {
+  background-color: #ca4747;
+}
+.adminUpdatebutton {
+  background-color: #34a366;
+}
+.adminDelbutton:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(234, 255, 0),
+    rgb(238, 83, 83)
+  );
+  color: black;
+}
+.adminUpdatebutton:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(234, 255, 0),
+    rgb(238, 83, 83)
+  );
+  color: black;
+}
+/* ///////////////////////////////////// */
+/* Define styles for the contact card */
+/* Basic styling for the page */
+
+h1 {
+  margin-top: 10px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.main-contact-div {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+overflow-y: scroll;
+}
+
+
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgb(123, 16, 16)
+  );
+  border-radius: 8px;
+}
+
+.main-contact .block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.main-contact .blockdelete {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+button {
+  background-color: #cc0000;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #990000;
+}

@@ -1,0 +1,53 @@
+/* Navbar.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the navigation links */
+.nav ul li {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+/* Hamburger button animation */
+.hamburger-button span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.hamburger-button.open span:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger-button.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-button.open span:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Add other styles as needed */
+
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+}
+.nav ul li :hover{
+  text-decoration: underline;
+  color: rgb(152, 73, 172);
+}
